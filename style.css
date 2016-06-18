@@ -1,208 +1,56 @@
 /*
-Theme name: iamrishabh
-Theme URI: http://www.iamrishabh.com
-Author: Rishabh Verma
-Author URI: http://www.iamrishabh.com
-Version: 0.1
-Description: Dork, How's this ?
+Author: Rishabh Verma;
+Notes: Github User Pages;
 */
 html,
 body {
     width: 100%;
-    height: 100%;
-    border: none;
-    margin: 0 auto;
-    font-family: 'Dosis',helvetica;
-    color: #fff;
-    background-color: #000000;
+    height: auto;
+    margin: 0;
+    background: none;
 }
 ::-moz-selection {
-    background-color: none;
+    background: #75B5E3;
     color: #fff;
-    text-shadow: 4px 5px 50px #fff;
 }
 ::selection {
-  background-color: none;
-  color: #fff;
-  text-shadow: 4px 5px 50px #fff;
-}
-ul,li {
-  list-style: none;
-
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-pre {
-    font-family: 'Dosis',Tw Cen MT;
+        background: #75B5E3;
     color: #fff;
 }
-#div1 {
-    background-color: #000;
+h1,h2,h3,h4,h5,h6
+{
+    font-family: 'Cairo',Tw Cen MT;
+    color: #000;
+}
+p,pre {
+    font-family: 'Dosis',Tw Cen MT;
+    color: #000;
+}
+#bg01 {
+    background: none;
     width: 100%;
     height: 100%;
-    border: 5px solid #000;
+    margin: 0;
 }
-hr {
-    background-color: #8A8A8A;
-    width: 50%;
-    height:3px;
-    border: none;
-}
-#title {
+.title {
+    font-family: 'Pacifico',Tw Cen MT;
+    font-size: 180px;
     text-align: center;
-    margin: 240px 0 0 0;
-    font-size: 10vw;
-    padding: 0px;
-    color: transparent;
-    font-family:'8BITWONDERNominal',sans-serif;
-    text-shadow:
-        5px -5px 0 red,
-      1px -1px 0 #F7F461,
-      0px 0px 0 #2e2e2e,
-      -1px 2px 0 #2c2c2c,
-      -2px 3px 0 #2a2a2a,
-      -3px 4px 0 #282828,
-      -4px 5px 0 #262626,
-      -5px 6px 0 #242424,
-      -6px 7px 0 #222,
-      -7px 8px 0 #202020,
-      -8px 9px 0 #1e1e1e,
-      -9px 10px 0 #1c1c1c,
-      -10px 11px 0 #1a1a1a,
-      -11px 12px 0 #181818,
-      -12px 13px 0 #161616,
-      -13px 14px 0 #141414,
-      -14px 15px 0 #121212,
-      -10px 15px 30px rgba(0, 0, 0, 0.9);
+    color: #000;
+    margin-top: 1%;
+    margin-bottom: 0;
 }
-.wd {
-    font-family: 'Inconsolata',Tw Cen MT;
+.desc {
+    font-family: 'Josefin Sans',Tw Cen MT;
+    font-size: 28px;
     text-align: center;
-    font-size: auto;
-    margin-left: 234px;
-    color: #fff;
-    width: 30em;
-    white-space: nowrap;
-    overflow: hidden;
-    -webkit-animation: type 5s steps(50, end);
-    animation: type 5s steps(50, end);
-}
-@keyframes type {
-    from { width: 0; }
-}
-@-webkit-keyframes type {
-    from { width: 0; }
-}
-#div2 {
-    background: #000;
-    width: 100%;
-    height: 100% auto;
-    color:#fff;
-}
-#div3 {
-    background: #000;
-    width: 100% auto;
-    height: 100% auto;
-    color:#fff;
-    margin: auto;
-}
-.hello {
-    font-family: 'Inconsolata',Tw Cen MT;
-    font-size: 65px;
-    text-align:center;
-    color: #fff;
-  }
-.myself {
-    font-family: 'Abel',Tw Cen MT;
-    font-size:25px;
-    text-align:justify;
-    color: #fff;
-    border: 3px solid #00D100;
-    width: 55%;
-    height: auto;
-    padding: 15px;
-    box-shadow: 4px 5px 100px #fff,
-                4px 5px 50px green,
-                4px 5px 50px orangered,
-                4px 5px 50px yellow,
-                4px 5px 50px #00D100,
-                4px 5px 50px violet;
-                margin-bottom: 20px;
-}
-.photo {
-    border-radius: 50%;
-    border: 8px solid #00D100;
-    box-shadow: 5px 5px 50px #fff;
-}
-#line {
-  width:2px;
-              height:180px;
-              background:orangered;
-              border:none;
-              margin:0 auto;
-                          box-shadow: 5px 5px 20px black;
-}
-.portfolio {
-  font-family: 'Inconsolata',Tw Cen MT;
-  font-size: 88px;
-  text-align: center;
-  color: #fff;
-  padding-bottom: 5px;
-}
-.love {
-  font-family:'Inconsolata',Tw Cen MT;
-  font-size: 72px;
-  text-align:center;
-  color: red;
-}
-.began {
-  font-family: 'Inconsolata',Tw Cen MT;
-  font-size:25px;
-  text-align:center;
-  color: red;
-  border-bottom: 2px solid red;
-  border-top: 2px solid red;
-  padding: 4px;
-}
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 150px;
+      background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
 
-#div3 a {
-  margin-top: 100px;
-  background-color: none;
-  color: #fff;
-  border: 8px solid red;
-  text-decoration: none;
-  margin: auto;
-  width: 200px;
-  height: auto;
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-top: 5px;
-  padding-bottom: 5px;
- font-family: 'Inconsolata',Tw Cen MT;
-  font-size: 25px;
-  text-align:left;
-  align-items: center;
-  -webkit-transition: color .4s ease;
--moz-transition: color .4s ease;
--ms-transition: color .4s ease;
--o-transition: color .4s ease;
-transition: color .4s ease;
-list-style-type: none;
-list-style: none;
-}
-#div3 a:hover, a:active {
-  background-color: red;
-  color: #000;
-  -webkit-transition: color .4s ease;
--moz-transition: color .4s ease;
--ms-transition: color .4s ease;
--o-transition: color .4s ease;
-transition: color .4s ease;
-         text-decoration: none;
-         box-shadow: 4px 5px 50px #fff;
 }
